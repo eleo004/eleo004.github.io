@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>LI-shop</title>
+    </head>
+    <body>
+       <div class="container"> 
+            <div class="header">
+                <div class="logo">
+                <img src="icons/L.svg">
+                <img src="icons/I.svg">
+                <a href="index.html">-shop</a>
+                </div>
+                <ul class="nav">
+                    <li><a href="index.html">главная</a></li>
+                    <li id="here">каталог</li>
+                    <li><a href="sale.html">распродажа</a></li>
+                </ul>
+                <div class="icons">
+                    <a href="search.html"><img src="icons/lupa.svg"></a>
+                    <a href="account.html"><img src="icons/chel.svg"></a>
+                    <a href="favourites.html"><img src="icons/heart.svg"></a>
+                    <a href="cart.html"><img src="icons/cart.svg"></a>
+                </div>
+            </div>
+            
+            <div class="cards_catalog">
+                <h2>Каталог</h2>
+                   <div class="row_blue">
+                      
+                       <div class="card_catalog">
+                           <a href="card.html"><img src="img/card1.png" alt="card"> </a>
+                           <a href="card.html" class="href_card"> <h6 id="head">Костюм повседневный утепленный</h6></a>
+                           <h6><strong>5 500 ₽</strong></h6>
+                           <div class="row_in_card_catalog">
+                              
+                               <div class="adding"> 
+                                  
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                                              
+                                   <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                   
+                                   <form action="cart.html" target="_blank">
+                                    <form action="cart.html" target="_blank">                                    <button class="btn_catalog btn_catalog_blue"><h4>В корзину</h4></button>                                    </form>
+                                   </form>
+                                   
+                               </div>
+                           </div>
+                           <div class="row_in_card_catalog">
+                              <div class="size_catalog">
+                               <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                               <button class="btn_catalog_size"><h6>116</h6></button>
+                               <button class="btn_catalog_size"><h6>122</h6></button>
+                               <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                               <button class="btn_catalog_size"><h6>134</h6></button>
+                               <button class="btn_catalog_size"><h6>140</h6></button>
+                             </div>
+                           </div>
+                       </div>
+                       
+                       <div class="card_catalog">
+                           <a href="card.html"><img src="img/card2.png" alt="card"> </a>
+                           <a href="card.html" class="href_card"> <h6 id="head">Костюм повседневный летний </h6></a>
+                           <h6><strong>2 500 ₽</strong></h6>
+                           <div class="row_in_card_catalog">
+                               <div class="quantity">
+                                   
+                               </div>
+                               <div class="adding"> 
+                                  
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                                              
+                                   <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                    <form action="cart.html" target="_blank">                                    <button class="btn_catalog btn_catalog_blue"><h4>В корзину</h4></button>                                    </form>
+                               </div>
+                           </div>
+                           <div class="row_in_card_catalog">
+                              <div class="size_catalog">
+                               <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                               <button class="btn_catalog_size"><h6>116</h6></button>
+                               <button class="btn_catalog_size"><h6>122</h6></button>
+                               <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                               <button class="btn_catalog_size"><h6>134</h6></button>
+                               <button class="btn_catalog_size"><h6>140</h6></button>
+                             </div>
+                           </div>
+                       </div> 
+                                             
+                       <div class="card_catalog">
+                           <a href="card.html"><img src="img/card3.png" alt="card"> </a>
+                           <a href="card.html" class="href_card"> <h6 id="head">Костюм повседневный</h6></a>
+                           <h6><strong>3 400 ₽</strong></h6>
+                           <div class="row_in_card_catalog">
+                               <div class="quantity">
+                                   
+                               </div>
+                               <div class="adding"> 
+                                  
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                                              
+                                   <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                    <form action="cart.html" target="_blank">                                    <button class="btn_catalog btn_catalog_blue"><h4>В корзину</h4></button>                                    </form>
+                               </div>
+                           </div>
+                           <div class="row_in_card_catalog">
+                              <div class="size_catalog">
+                               <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                               <button class="btn_catalog_size"><h6>116</h6></button>
+                               <button class="btn_catalog_size"><h6>122</h6></button>
+                               <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                               <button class="btn_catalog_size"><h6>134</h6></button>
+                               <button class="btn_catalog_size"><h6>140</h6></button>
+                             </div>
+                           </div>
+                       </div>
+                       
+                       <div class="card_catalog">
+                           <a href="card.html"><img src="img/card4.png" alt="card"> </a>
+                           <a href="card.html" class="href_card"> <h6 id="head">Платье летнее хлопковое</h6></a>
+                           <h6><strong>4 300 ₽</strong></h6>
+                           <div class="row_in_card_catalog">
+                               <div class="quantity">
+                                   
+                               </div>
+                               <div class="adding"> 
+                                  
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                                              
+                                   <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                    <form action="cart.html" target="_blank">                                    <button class="btn_catalog btn_catalog_blue"><h4>В корзину</h4></button>                                    </form>
+                               </div>
+                           </div>
+                           <div class="row_in_card_catalog">
+                              <div class="size_catalog">
+                               <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                               <button class="btn_catalog_size"><h6>116</h6></button>
+                               <button class="btn_catalog_size"><h6>122</h6></button>
+                               <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                               <button class="btn_catalog_size"><h6>134</h6></button>
+                               <button class="btn_catalog_size"><h6>140</h6></button>
+                             </div>
+                           </div>
+                       </div>                                                                     
+                   </div>
+                        <div class="row_yellow">
+                                   
+                                <div class="card_catalog">
+                                    <a href="card.html"><img src="img/card5.png" alt="card"> </a>
+                                       <a href="card.html" class="href_card"> <h6 id="head">Пижама </h6></a>
+                                       <h6><strong>2 000 ₽</strong></h6>
+                                       <div class="row_in_card_catalog">
+                                           <div class="adding"> 
+                                               
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                
+                                               <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                               
+                                               <form action="cart.html" target="_blank">    
+                                                   <button class="btn_catalog btn_catalog_yellow"><h4>В корзину</h4></button> 
+                                               </form>            
+                                               
+                                           </div>
+                                       </div>
+                                       <div class="row_in_card_catalog">
+                                          <div class="size_catalog">
+                                           <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                                           <button class="btn_catalog_size"><h6>116</h6></button>
+                                           <button class="btn_catalog_size"><h6>122</h6></button>
+                                           <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                                           <button class="btn_catalog_size"><h6>134</h6></button>
+                                           <button class="btn_catalog_size"><h6>140</h6></button>
+                                         </div>
+                                       </div>
+                            </div>
+                               
+                                    <div class="card_catalog">
+                                        <a href="card.html"><img src="img/card6.png" alt="card"> </a>
+                                       <a href="card.html" class="href_card"> <h6 id="head">Сарафан летний хлопковый </h6></a>
+                                       <h6><strong>3 100 ₽</strong></h6>
+                                       <div class="row_in_card_catalog">
+                                           <div class="quantity">
+
+                                           </div>
+                                           <div class="adding"> 
+                                               
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                
+                                               <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                               <form action="cart.html" target="_blank">                                                    <button class="btn_catalog btn_catalog_yellow"><h4>В корзину</h4></button>                                                </form>
+                                           </div>
+                                       </div>
+                                       <div class="row_in_card_catalog">
+                                          <div class="size_catalog">
+                                           <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                                           <button class="btn_catalog_size"><h6>116</h6></button>
+                                           <button class="btn_catalog_size"><h6>122</h6></button>
+                                           <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                                           <button class="btn_catalog_size"><h6>134</h6></button>
+                                           <button class="btn_catalog_size"><h6>140</h6></button>
+                                         </div>
+                                       </div>
+                                   </div>
+                               
+                                    <div class="card_catalog">
+                                        <a href="card.html"><img src="img/card7.png" alt="card"> </a>
+                                       <a href="card.html" class="href_card"> <h6 id="head">Костюм домашний </h6></a>
+                                       <h6><strong>2 100 ₽</strong></h6>
+                                       <div class="row_in_card_catalog">
+                                           <div class="quantity">
+                                           </div>
+                                           <div class="adding"> 
+                                               
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                
+                                               <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                               <form action="cart.html" target="_blank">                                                    <button class="btn_catalog btn_catalog_yellow"><h4>В корзину</h4></button>                                                </form>
+                                           </div>
+                                       </div>
+                                       <div class="row_in_card_catalog">
+                                          <div class="size_catalog">
+                                           <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                                           <button class="btn_catalog_size"><h6>116</h6></button>
+                                           <button class="btn_catalog_size"><h6>122</h6></button>
+                                           <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                                           <button class="btn_catalog_size"><h6>134</h6></button>
+                                           <button class="btn_catalog_size"><h6>140</h6></button>
+                                         </div>
+                                       </div>
+                                   </div>
+                               
+                                    <div class="card_catalog">
+                                        <a href="card.html"><img src="img/card8.png" alt="card"> </a>
+                                       <a href="card.html" class="href_card"> <h6 id="head">Костюм повседневный для малышек </h6></a>
+                                       <h6><strong>2 700 ₽</strong></h6>
+                                       <div class="row_in_card_catalog">
+                                           <div class="quantity">
+
+                                           </div>
+                                           <div class="adding"> 
+                                               
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                
+                                                        <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                               <form action="cart.html" target="_blank">                                                    <button class="btn_catalog btn_catalog_yellow"><h4>В корзину</h4></button>                                                </form>
+                                           </div>
+                                       </div>
+                                       <div class="row_in_card_catalog">
+                                          <div class="size_catalog">
+                                           <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                                           <button class="btn_catalog_size"><h6>116</h6></button>
+                                           <button class="btn_catalog_size"><h6>122</h6></button>
+                                           <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                                           <button class="btn_catalog_size"><h6>134</h6></button>
+                                           <button class="btn_catalog_size"><h6>140</h6></button>
+                                         </div>
+                                       </div>
+                               </div>                                                
+                            </div>
+                            
+                   <div class="row_blue">
+                      
+                       <div class="card_catalog">
+                           <a href="card.html"><img src="img/card1.png" alt="card"> </a>
+                           <a href="card.html" class="href_card"> <h6 id="head">Костюм повседневный утепленный</h6></a>
+                           <h6><strong>5 500 ₽</strong></h6>
+                           <div class="row_in_card_catalog">
+                              
+                               <div class="adding"> 
+                                  
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                                              
+                                   <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                    <form action="cart.html" target="_blank">                                    <button class="btn_catalog btn_catalog_blue"><h4>В корзину</h4></button>                                    </form>
+                               </div>
+                           </div>
+                           <div class="row_in_card_catalog">
+                              <div class="size_catalog">
+                               <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                               <button class="btn_catalog_size"><h6>116</h6></button>
+                               <button class="btn_catalog_size"><h6>122</h6></button>
+                               <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                               <button class="btn_catalog_size"><h6>134</h6></button>
+                               <button class="btn_catalog_size"><h6>140</h6></button>
+                             </div>
+                           </div>
+                       </div>
+                       
+                       <div class="card_catalog">
+                           <a href="card.html"><img src="img/card2.png" alt="card"> </a>
+                           <a href="card.html" class="href_card"> <h6 id="head">Костюм повседневный летний </h6></a>
+                           <h6><strong>2 500 ₽</strong></h6>
+                           <div class="row_in_card_catalog">
+                               <div class="quantity">
+                                   
+                               </div>
+                               <div class="adding"> 
+                                  
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                                              
+                                   <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                    <form action="cart.html" target="_blank">                                    <button class="btn_catalog btn_catalog_blue"><h4>В корзину</h4></button>                                    </form>
+                               </div>
+                           </div>
+                           <div class="row_in_card_catalog">
+                              <div class="size_catalog">
+                               <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                               <button class="btn_catalog_size"><h6>116</h6></button>
+                               <button class="btn_catalog_size"><h6>122</h6></button>
+                               <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                               <button class="btn_catalog_size"><h6>134</h6></button>
+                               <button class="btn_catalog_size"><h6>140</h6></button>
+                             </div>
+                           </div>
+                       </div> 
+                                             
+                       <div class="card_catalog">
+                           <a href="card.html"><img src="img/card3.png" alt="card"> </a>
+                           <a href="card.html" class="href_card"> <h6 id="head">Костюм повседневный</h6></a>
+                           <h6><strong>3 400 ₽</strong></h6>
+                           <div class="row_in_card_catalog">
+                               <div class="quantity">
+                                   
+                               </div>
+                               <div class="adding"> 
+                                  
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                                              
+                                   <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                    <form action="cart.html" target="_blank">                                    <button class="btn_catalog btn_catalog_blue"><h4>В корзину</h4></button>                                    </form>
+                               </div>
+                           </div>
+                           <div class="row_in_card_catalog">
+                              <div class="size_catalog">
+                               <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                               <button class="btn_catalog_size"><h6>116</h6></button>
+                               <button class="btn_catalog_size"><h6>122</h6></button>
+                               <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                               <button class="btn_catalog_size"><h6>134</h6></button>
+                               <button class="btn_catalog_size"><h6>140</h6></button>
+                             </div>
+                           </div>
+                       </div>
+                       
+                       <div class="card_catalog">
+                           <a href="card.html"><img src="img/card4.png" alt="card"> </a>
+                           <a href="card.html" class="href_card"> <h6 id="head">Платье летнее хлопковое</h6></a>
+                           <h6><strong>4 300 ₽</strong></h6>
+                           <div class="row_in_card_catalog">
+                               <div class="quantity">
+                                   
+                               </div>
+                               <div class="adding"> 
+                                  
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                            
+                                    <form action="favourites.html" target="_blank">             <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                   </form>
+                                   
+                                    <form action="cart.html" target="_blank">                                    <button class="btn_catalog btn_catalog_blue"><h4>В корзину</h4></button>                                    </form>
+                               </div>
+                           </div>
+                           <div class="row_in_card_catalog">
+                              <div class="size_catalog">
+                               <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                               <button class="btn_catalog_size"><h6>116</h6></button>
+                               <button class="btn_catalog_size"><h6>122</h6></button>
+                               <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                               <button class="btn_catalog_size"><h6>134</h6></button>
+                               <button class="btn_catalog_size"><h6>140</h6></button>
+                             </div>
+                           </div>
+                       </div>                                                                     
+                   </div>
+                        <div class="row_yellow">
+                                   
+                                <div class="card_catalog">
+                                    <a href="card.html"><img src="img/card5.png" alt="card"> </a>
+                                       <a href="card.html" class="href_card"> <h6 id="head">Пижама </h6></a>
+                                       <h6><strong>2 000 ₽</strong></h6>
+                                       <div class="row_in_card_catalog">
+                                           <div class="adding"> 
+                                               
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                
+                                               <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                               <form action="cart.html" target="_blank">                                                    <button class="btn_catalog btn_catalog_yellow"><h4>В корзину</h4></button>                                                </form>
+                                           </div>
+                                       </div>
+                                       <div class="row_in_card_catalog">
+                                          <div class="size_catalog">
+                                           <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                                           <button class="btn_catalog_size"><h6>116</h6></button>
+                                           <button class="btn_catalog_size"><h6>122</h6></button>
+                                           <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                                           <button class="btn_catalog_size"><h6>134</h6></button>
+                                           <button class="btn_catalog_size"><h6>140</h6></button>
+                                         </div>
+                                       </div>
+                            </div>
+                               
+                                    <div class="card_catalog">
+                                        <a href="card.html"><img src="img/card6.png" alt="card"> </a>
+                                       <a href="card.html" class="href_card"> <h6 id="head">Сарафан летний хлопковый </h6></a>
+                                       <h6><strong>3 100 ₽</strong></h6>
+                                       <div class="row_in_card_catalog">
+                                           <div class="quantity">
+
+                                           </div>
+                                           <div class="adding"> 
+                                               
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                
+                                               <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                               <form action="cart.html" target="_blank">                                                    <button class="btn_catalog btn_catalog_yellow"><h4>В корзину</h4></button>                                                </form>
+                                           </div>
+                                       </div>
+                                       <div class="row_in_card_catalog">
+                                          <div class="size_catalog">
+                                           <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                                           <button class="btn_catalog_size"><h6>116</h6></button>
+                                           <button class="btn_catalog_size"><h6>122</h6></button>
+                                           <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                                           <button class="btn_catalog_size"><h6>134</h6></button>
+                                           <button class="btn_catalog_size"><h6>140</h6></button>
+                                         </div>
+                                       </div>
+                                   </div>
+                               
+                                    <div class="card_catalog">
+                                        <a href="card.html"><img src="img/card7.png" alt="card"> </a>
+                                       <a href="card.html" class="href_card"> <h6 id="head">Костюм домашний </h6></a>
+                                       <h6><strong>2 100 ₽</strong></h6>
+                                       <div class="row_in_card_catalog">
+                                           <div class="quantity">
+                                           </div>
+                                           <div class="adding"> 
+                                               
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                
+                                               <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                               <form action="cart.html" target="_blank">                                                    <button class="btn_catalog btn_catalog_yellow"><h4>В корзину</h4></button>                                                </form>
+                                           </div>
+                                       </div>
+                                       <div class="row_in_card_catalog">
+                                          <div class="size_catalog">
+                                           <button  class="none_btn_catalog_size"><h6 id="none_size">110</h6></button>
+                                           <button class="btn_catalog_size"><h6>116</h6></button>
+                                           <button class="btn_catalog_size"><h6>122</h6></button>
+                                           <button class="none_btn_catalog_size"><h6 id="none_size">128</h6></button>
+                                           <button class="btn_catalog_size"><h6>134</h6></button>
+                                           <button class="btn_catalog_size"><h6>140</h6></button>
+                                         </div>
+                                       </div>
+                                   </div>
+                               
+                                    <div class="card_catalog">
+                                        <a href="card.html"><img src="img/card8.png" alt="card"> </a>
+                                       <a href="card.html" class="href_card"> <h6 id="head">Костюм повседневный для малышек </h6></a>
+                                       <h6><strong>2 700 ₽</strong></h6>
+                                       <div class="row_in_card_catalog">
+                                           <div class="quantity">
+
+                                           </div>
+                                           <div class="adding"> 
+                                               
+                                            <div class="input-group quantity_goods">
+                                              <input type="button" value="–" id="button_minus" class="proba">
+                                              
+                                              <input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                              
+                                              <input type="button" value="+" id="button_plus" class="proba">
+                                            </div>
+                                                
+                                               <form action="favourites.html" target="_blank">             <button class='proba' ><img src="icons/heart.svg" alt="favourites" ></button>                                    </form>
+                                               <form action="cart.html" target="_blank">                                                    <button class="btn_catalog btn_catalog_yellow"><h4>В корзину</h4></button>                                                </form>
+                                           </div>
+                                       </div>
+                                       <div class="row_in_card_catalog">
+                                          <div class="size_catalog">
+                                           <button  class="none_btn_catalog_size"><h6 id="none_size"></h6></button>
+                                           <button class="btn_catalog_size"><h6></h6></button>
+                                           <button class="btn_catalog_size"><h6></h6></button>
+                                           <button class="none_btn_catalog_size"><h6 id="none_size"></h6></button>
+                                           <button class="btn_catalog_size"><h6></h6></button>
+                                           <button class="btn_catalog_size"><h6></h6></button>
+                                         </div>
+                                       </div>
+                               </div>                                                
+                            </div>                            
+                    </div> 
+            
+            <div class="footer">
+               
+                <div class="col-1">
+                    <a href="catalog.html"><h4>Каталог</h4></a>
+                    <a href="sale.html"><h4>Распродажа</h4></a>
+                </div>
+                
+                <div class="col-2">
+                    <a href="help.html"><h4>Помощь</h4></a>
+                    <a href="revers.html"><h4>Возврат/обмен</h4></a>
+                </div>
+                    
+                <div class="col-3">
+                    <a href="personal_data.html"><h4>Персональные данные</h4></a>
+                    <a href="confidentiality.html"><h4>Конфиденциальность </h4></a>
+                </div>
+                
+                <div class="mailing">
+                    <h3>Подпишитесь на нашу рассылку </h3>
+                    <div class="mailing_form">
+                        <input type="email" id="fname" name="email" placeholder="Ваш e-mail.." >
+                        <button class="btn_form" type="submit">подписаться</button>
+                    </div>
+                    <h6>Подпишитесь на нашу рассылку и получайте информацию о скидках самым первым</h6>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+<script>
+    var numCount = document.getElementById('num_count');
+    var plusBtn = document.getElementById('button_plus');
+    var minusBtn = document.getElementById('button_minus');
+    plusBtn.onclick = function() {
+      var qty = parseInt(numCount.value);
+      qty = qty + 1;
+      numCount.value = qty;
+    }
+    minusBtn.onclick = function() {
+      var qty = parseInt(numCount.value);
+      qty = qty - 1;
+      numCount.value = qty;
+    }
+</script>
+</html>

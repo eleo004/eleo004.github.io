@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>LI-shop</title>
+    </head>
+    <body>
+      
+       <div class="container"> 
+        <div class="header">
+            <div class="logo">
+            <img src="icons/L.svg">
+            <img src="icons/I.svg">
+            <a href="index.html">-shop</a>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html">главная</a></li>
+                <li><a href="catalog.html">каталог</a></li>
+                <li><a href="sale.html">распродажа</a></li>
+            </ul>
+            <div class="icons">
+                <a href="search.html"><img src="icons/lupa.svg"></a>
+                <a href="account.html"><img src="icons/chel.svg"></a>
+                <a href="favourites.html"><img src="icons/heart.svg"></a>
+                <a href="cart.html"><img src="icons/cart.svg"></a>
+            </div>
+        </div>
+        
+        <div class="main_card">
+            
+            <div class="col1-card"> 
+            <img src="img/card.png" alt="li-shop">
+            </div>
+            
+            <div class="col2-card"> 
+                <div class="row1-col2-card row-col2-card">
+                    <h3><strong>Костюм повседневный утепленный </strong></h3>
+                    <h4><strong>5 500 ₽</strong></h4>
+                </div>
+                
+                <div class="row2-col2-card row-col2-card">
+                    <h6><b>Артикул</b>: 111222</h6>
+                    <h6><b>Материал</b>: 100% хлопок</h6>
+                    <h6><b>Цвет</b>: Светло бежевый</h6>
+                </div>
+                <div class="row3-col2-card row-col2-card">
+                     <div class="shopnow">
+
+                      <input type="checkbox" id="size-110" value="110" name="size-1" />
+                      <label for="size-110"><h6>110</h6></label>
+
+                      <input type="checkbox" id="size-116" value="116" name="size-2" />
+                      <label for="size-116"><h6>116</h6></label>
+
+                      <input type="checkbox" id="size-122" value="122" name="size-3" />
+                      <label for="size-122"><h6>122</h6></label>
+
+                      <input type="checkbox" id="size-128" value="128" name="size-4" />
+                      <label for="size-128"><h6>128</h6></label>
+
+                      <input type="checkbox" id="size-134" value="134" name="size-5" />
+                      <label for="size-134"><h6>134</h6></label>
+
+                      <input type="checkbox" id="size-140" value="140" name="size-6" />
+                      <label for="size-140"><h6>140</h6></label>
+                    </div>
+                </div>
+                <div class="row4-col2-card row-col2-card">
+                                                
+                       <button class="heart">
+                            <div class="heart-flip"></div>
+                        </button>
+                       
+                        <form action="catalog.html" target="_blank">                     <button class="btn_catalog btn_catalog_yellow card__add"><h4>В корзину</h4></button>                                   </form>
+                    </div>    
+                                    
+                </div>
+            </div>
+        
+        
+        
+       <div class="footer">
+               
+                <div class="col-1">
+                    <a href="catalog.html"><h4>Каталог</h4></a>
+                    <a href="sale.html"><h4>Распродажа</h4></a>
+                </div>
+                
+                <div class="col-2">
+                    <a href="help.html"><h4>Помощь</h4></a>
+                    <a href="revers.html"><h4>Возврат/обмен</h4></a>
+                </div>
+                    
+                <div class="col-3">
+                    <a href="personal_data.html"><h4>Персональные данные</h4></a>
+                    <a href="confidentiality.html"><h4>Конфиденциальность </h4></a>
+                </div>
+                
+                <div class="mailing">
+                    <h3>Подпишитесь на нашу рассылку </h3>
+                    <div class="mailing_form">
+                        <input type="email" id="fname" name="email" placeholder="Ваш e-mail.." >
+                        <button class="btn_form" type="submit">подписаться</button>
+                    </div>
+                    <h6>Подпишитесь на нашу рассылку и получайте информацию о скидках самым первым</h6>
+                </div>
+            </div>
+        </div>
+       
+    
+    </body>
+    <script>document.querySelectorAll('.heart, .heart-button').forEach(button => button.addEventListener('click', e => button.classList.toggle('active')));</script>
+</html>

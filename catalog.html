@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <title>LI-shop</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="logo">
+        <img src="icons/L.svg">
+        <img src="icons/I.svg">
+        <a href="index.html">-shop</a>
+      </div>
+      <ul class="nav">
+        <li><a href="index.html">главная</a></li>
+        <li id="here">каталог</li>
+        <li><a href="sale.html">распродажа</a></li>
+      </ul>
+
+      <div class="icons-group">
+        <div class="icons">
+          <a href="search.html"><img src="icons/lupa.svg"></a>
+          <a href="account.html"><img src="icons/chel.svg"></a>
+          <a href="favourites.html"><img src="icons/heart.svg" class="cart_icon"></a>
+        </div>
+        <button class="cart" id="cart">
+          <img class="cart__image" src="icons/cart2.svg" alt="Cart" srcset="" />
+          <div class="cart__num" id="cart_num">0</div>
+        </button>
+      </div>
+    </div>
+
+    <div class="cards_catalog">
+      <h2>Каталог</h2>
+
+      <div class="row_blue">
+
+        <div class="card card_catalog">
+          <div class="card__top">
+            <a href="card.html" class="card__image">
+              <img src="img/card2.png" alt="Li-shop" />
+            </a>
+          </div>
+
+          <h6 id="head"><a href="#" class="card__title">
+              Костюм повседневный летний
+            </a></h6>
+
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">2 500</div>
+            </div>
+
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110" value="110" name="size-1" />
+              <label for="size-110">
+                <h6>110</h6>
+              </label>
+
+              <input type="checkbox" id="size-116" value="116" name="size-2" />
+              <label for="size-116">
+                <h6>116</h6>
+              </label>
+
+              <input type="checkbox" id="size-122" value="122" name="size-3" />
+              <label for="size-122">
+                <h6>122</h6>
+              </label>
+
+              <input type="checkbox" id="size-128" value="128" name="size-4" />
+              <label for="size-128">
+                <h6>128</h6>
+              </label>
+
+              <input type="checkbox" id="size-134" value="134" name="size-5" />
+              <label for="size-134">
+                <h6>134</h6>
+              </label>
+
+              <input type="checkbox" id="size-140" value="140" name="size-6" />
+              <label for="size-140">
+                <h6>140</h6>
+              </label>
+            </div>
+
+            <div class="adding">
+              <button class="heart">
+                <div class="heart-flip"></div>
+              </button>
+
+              <button class="card__add btn_catalog btn_catalog_blue">В корзину</button>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="card card_catalog">
+          <div class="card__top">
+            <a href="card.html" class="card__image">
+              <img src="img/card1.png" alt="Li-shop" />
+            </a>
+          </div>
+
+          <h6 id="head"><a href="#" class="card__title">
+              Костюм повседневный утепленный
+            </a></h6>
+
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">5 500</div>
+            </div>
+
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110-2" value="110" name="size-1" />
+              <label for="size-110-2">
+                <h6>110</h6>
+              </label>
+
+              <input type="checkbox" id="size-116-2" value="116" name="size-2" />
+              <label for="size-116-2">
+                <h6>116</h6>
+              </label>
+
+              <input type="checkbox" id="size-122-2" value="122" name="size-3" />
+              <label for="size-122-2">
+                <h6>122</h6>
+              </label>
+
+              <input type="checkbox" id="size-128-2" value="128" name="size-4" />
+              <label for="size-128-2">
+                <h6>128</h6>
+              </label>
+
+              <input type="checkbox" id="size-134-2" value="134" name="size-5" />
+              <label for="size-134-2">
+                <h6>134</h6>
+              </label>
+
+              <input type="checkbox" id="size-140-2" value="140" name="size-6" />
+              <label for="size-140-2">
+                <h6>140</h6>
+              </label>
+            </div>
+
+            <div class="adding">
+              <button class="heart">
+                <div class="heart-flip"></div>
+              </button>
+
+              <button class="card__add btn_catalog btn_catalog_blue">В корзину</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="card card_catalog">
+          <div class="card__top">
+            <a href="card.html" class="card__image">
+              <img src="img/card3.png" alt="Li-shop" />
+            </a>
+          </div>
+
+          <h6 id="head"><a href="#" class="card__title">
+              Костюм повседневный
+            </a></h6>
+
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">3 400</div>
+            </div>
+
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110-3" value="110" name="size-1" />
+              <label for="size-110-3">
+                <h6>110</h6>
+              </label>
+
+              <input type="checkbox" id="size-116-3" value="116" name="size-2" />
+              <label for="size-116-3">
+                <h6>116</h6>
+              </label>
+
+              <input type="checkbox" id="size-122-3" value="122" name="size-3" />
+              <label for="size-122-3">
+                <h6>122</h6>
+              </label>
+
+              <input type="checkbox" id="size-128-3" value="128" name="size-4" />
+              <label for="size-128-3">
+                <h6>128</h6>
+              </label>
+
+              <input type="checkbox" id="size-134-3" value="134" name="size-5" />
+              <label for="size-134-3">
+                <h6>134</h6>
+              </label>
+
+              <input type="checkbox" id="size-140-3" value="140" name="size-6" />
+              <label for="size-140-3">
+                <h6>140</h6>
+              </label>
+            </div>
+
+            <div class="adding">
+              <button class="heart">
+                <div class="heart-flip"></div>
+              </button>
+
+              <button class="card__add btn_catalog btn_catalog_blue">В корзину</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="card card_catalog">
+          <div class="card__top">
+            <a href="card.html" class="card__image">
+              <img src="img/card4.png" alt="Li-shop" />
+            </a>
+          </div>
+
+          <h6 id="head"><a href="#" class="card__title">
+              Платье летнее хлопковое
+            </a></h6>
+
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">4 300</div>
+            </div>
+
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110-4" value="110" name="size-1" />
+              <label for="size-110-4">
+                <h6>110</h6>
+              </label>
+
+              <input type="checkbox" id="size-116-4" value="116" name="size-2" />
+              <label for="size-116-4">
+                <h6>116</h6>
+              </label>
+
+              <input type="checkbox" id="size-122-4" value="122" name="size-3" />
+              <label for="size-122-4">
+                <h6>122</h6>
+              </label>
+
+              <input type="checkbox" id="size-128-4" value="128" name="size-4" />
+              <label for="size-128-4">
+                <h6>128</h6>
+              </label>
+
+              <input type="checkbox" id="size-134-4" value="134" name="size-5" />
+              <label for="size-134-4">
+                <h6>134</h6>
+              </label>
+
+              <input type="checkbox" id="size-140-4" value="140" name="size-6" />
+              <label for="size-140-4">
+                <h6>140</h6>
+              </label>
+            </div>
+
+            <div class="adding">
+              <button class="heart">
+                <div class="heart-flip"></div>
+              </button>
+
+              <button class="card__add btn_catalog btn_catalog_blue">В корзину</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row_yellow">
+
+        <div class="card card_catalog">
+          <div class="card__top">
+            <a href="card.html" class="card__image">
+              <img src="img/card5.png" alt="Li-shop" />
+            </a>
+          </div>
+
+          <h6 id="head"><a href="#" class="card__title">
+              Костюм повседневный для малышек
+            </a></h6>
+
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">2 700</div>
+            </div>
+
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110-5" value="110" name="size-1" />
+              <label for="size-110-5">
+                <h6>110</h6>
+              </label>
+
+              <input type="checkbox" id="size-116-5" value="116" name="size-2" />
+              <label for="size-116-5">
+                <h6>116</h6>
+              </label>
+
+              <input type="checkbox" id="size-122-5" value="122" name="size-3" />
+              <label for="size-122-5">
+                <h6>122</h6>
+              </label>
+
+              <input type="checkbox" id="size-128-5" value="128" name="size-4" />
+              <label for="size-128-5">
+                <h6>128</h6>
+              </label>
+
+              <input type="checkbox" id="size-134-5" value="134" name="size-5" />
+              <label for="size-134-5">
+                <h6>134</h6>
+              </label>
+
+              <input type="checkbox" id="size-140-5" value="140" name="size-6" />
+              <label for="size-140-5">
+                <h6>140</h6>
+              </label>
+            </div>
+
+            <div class="adding">
+              <button class="heart">
+                <div class="heart-flip"></div>
+              </button>
+
+              <button class="card__add btn_catalog btn_catalog_yellow">В корзину</button>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="card card_catalog">
+          <div class="card__top">
+            <a href="card.html" class="card__image">
+              <img src="img/card6.png" alt="Li-shop" />
+            </a>
+          </div>
+
+          <h6 id="head"><a href="#" class="card__title">
+              Пижама
+            </a></h6>
+
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">2 000</div>
+            </div>
+
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110-6" value="110" name="size-1" />
+              <label for="size-110-6">
+                <h6>110</h6>
+              </label>
+
+              <input type="checkbox" id="size-116-6" value="116" name="size-2" />
+              <label for="size-116-6">
+                <h6>116</h6>
+              </label>
+
+              <input type="checkbox" id="size-122-6" value="122" name="size-3" />
+              <label for="size-122-6">
+                <h6>122</h6>
+              </label>
+
+              <input type="checkbox" id="size-128-6" value="128" name="size-4" />
+              <label for="size-128-6">
+                <h6>128</h6>
+              </label>
+
+              <input type="checkbox" id="size-134-6" value="134" name="size-5" />
+              <label for="size-134-6">
+                <h6>134</h6>
+              </label>
+
+              <input type="checkbox" id="size-140-6" value="140" name="size-6" />
+              <label for="size-140-6">
+                <h6>140</h6>
+              </label>
+            </div>
+
+            <div class="adding">
+              <button class="heart">
+                <div class="heart-flip"></div>
+              </button>
+
+              <button class="card__add btn_catalog btn_catalog_yellow">В корзину</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="card card_catalog">
+          <div class="card__top">
+            <a href="card.html" class="card__image">
+              <img src="img/card7.png" alt="Li-shop" />
+            </a>
+          </div>
+
+          <h6 id="head"><a href="#" class="card__title">
+              Сарафан летний хлопковый
+            </a></h6>
+
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">3 100</div>
+            </div>
+
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110-7" value="110" name="size-1" />
+              <label for="size-110-7">
+                <h6>110</h6>
+              </label>
+
+              <input type="checkbox" id="size-116-7" value="116" name="size-2" />
+              <label for="size-116-7">
+                <h6>116</h6>
+              </label>
+
+              <input type="checkbox" id="size-122-7" value="122" name="size-3" />
+              <label for="size-122-7">
+                <h6>122</h6>
+              </label>
+
+              <input type="checkbox" id="size-128-7" value="128" name="size-4" />
+              <label for="size-128-7">
+                <h6>128</h6>
+              </label>
+
+              <input type="checkbox" id="size-134-7" value="134" name="size-5" />
+              <label for="size-134-7">
+                <h6>134</h6>
+              </label>
+
+              <input type="checkbox" id="size-140-7" value="140" name="size-6" />
+              <label for="size-140-7">
+                <h6>140</h6>
+              </label>
+            </div>
+            <div class="adding">
+              <button class="heart">
+                <div class="heart-flip"></div>
+              </button>
+
+              <button class="card__add btn_catalog btn_catalog_yellow">В корзину</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="card card_catalog">
+          <div class="card__top">
+            <a href="card.html" class="card__image">
+              <img src="img/card8.png" alt="Li-shop" />
+            </a>
+          </div>
+
+          <h6 id="head"><a href="#" class="card__title">
+              Костюм домашний
+            </a></h6>
+
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">2 100</div>
+            </div>
+
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110-8" value="110" name="size-1" />
+              <label for="size-110-8">
+                <h6>110</h6>
+              </label>
+
+              <input type="checkbox" id="size-116-8" value="116" name="size-2" />
+              <label for="size-116-8">
+                <h6>116</h6>
+              </label>
+
+              <input type="checkbox" id="size-122-8" value="122" name="size-3" />
+              <label for="size-122-8">
+                <h6>122</h6>
+              </label>
+
+              <input type="checkbox" id="size-128-8" value="128" name="size-4" />
+              <label for="size-128-8">
+                <h6>128</h6>
+              </label>
+
+              <input type="checkbox" id="size-134-8" value="134" name="size-5" />
+              <label for="size-134-8">
+                <h6>134</h6>
+              </label>
+
+              <input type="checkbox" id="size-140-8" value="140" name="size-6" />
+              <label for="size-140-8">
+                <h6>140</h6>
+              </label>
+            </div>
+
+            <div class="adding">
+              <button class="heart">
+                <div class="heart-flip"></div>
+              </button>
+
+              <button class="card__add btn_catalog btn_catalog_yellow">В корзину</button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="popup">
+        <div class="popup__container" id="popup_container">
+          <div class="popup__item">
+            <h1 class="popup__title">Оформление заказа</h1>
+          </div>
+          <div class="popup__item" id="popup_product_list">
+            <div class="popup__product">
+              <div class="popup__product-wrap">
+                <img src="img/card.png" class="popup__product-image" />
+                <h2 class="popup__product-title">
+
+                </h2>
+              </div>
+              <div class="popup__product-wrap">
+                <div class="popup__product-price"> </div>
+                <button class="popup__product-delete">&#10006;</button>
+              </div>
+            </div>
+          </div>
+          <div class="popup__item">
+            <div class="popup__cost">
+              <h2 class="popup__cost-title">Итого:</h2>
+              <output class="popup__cost-value" id="popup_cost">0</output>
+            </div>
+            <div class='buy'><a href="pay.html">Оформить заказ</a></div>
+          </div>
+          <button class="popup__close" id="popup_close">&#10006;</button>
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+
+      <div class="col-1">
+        <a href="catalog.html">
+          <h4>Каталог</h4>
+        </a>
+        <a href="sale.html">
+          <h4>Распродажа</h4>
+        </a>
+      </div>
+
+      <div class="col-2">
+        <a href="help.html">
+          <h4>Помощь</h4>
+        </a>
+        <a href="revers.html">
+          <h4>Возврат/обмен</h4>
+        </a>
+      </div>
+
+      <div class="col-3">
+        <a href="personal_data.html">
+          <h4>Персональные данные</h4>
+        </a>
+        <a href="confidentiality.html">
+          <h4>Конфиденциальность </h4>
+        </a>
+      </div>
+
+      <div class="mailing">
+        <h3>Подпишитесь на нашу рассылку </h3>
+        <div class="mailing_form">
+          <input type="email" id="fname" name="email" placeholder="Ваш e-mail..">
+          <button class="btn_form" type="submit">подписаться</button>
+        </div>
+        <h6>Подпишитесь на нашу рассылку и получайте информацию о скидках самым первым</h6>
+      </div>
+    </div>
+  </div>
+
+  <script src="./scripts/main.js"></script>
+  <script>document.querySelectorAll('.heart, .heart-button').forEach(button => button.addEventListener('click', e => button.classList.toggle('active')));</script>
+</body>
+
+</html>

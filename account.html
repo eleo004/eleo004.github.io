@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/account.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>LI-shop</title>
+    </head>
+  <body>
+
+        <h1 class="heading">LI-shop</h1>
+ 
+    <!-- container div -->
+    <div class="container">
+ 
+        <!-- upper button section to select
+             the login or signup form -->
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Вход</button>
+            <button class="signup">Регистация</button>
+        </div>
+ 
+        <!-- Form section that contains the
+             login and the signup form -->
+        <div class="form-section">
+ 
+            <!-- login form -->
+            <div class="login-box">
+                <input type="email"
+                       class="email ele"
+                       placeholder="e-mail">
+                <input type="password"
+                       class="password ele"
+                       placeholder="пароль">
+                <button class="clkbtn">Войти</button>
+            </div>
+ 
+            <!-- signup form -->
+            <div class="signup-box">
+                <input type="text"
+                       class="name ele"
+                       placeholder="Введите Ваше ФИО">
+                <input type="email"
+                       class="email ele"
+                       placeholder="Введите ваш e-mai">
+                <input type="password"
+                       class="password ele"
+                       placeholder="Придумайте пароль">
+                <input type="password"
+                       class="password ele"
+                       placeholder="Повторите пароль">
+                <button class="clkbtn">Регистрация</button>
+            </div>
+        </div>
+    </div>
+    <script>let signup = document.querySelector(".signup");
+let login = document.querySelector(".login");
+let slider = document.querySelector(".slider");
+let formSection = document.querySelector(".form-section");
+ 
+signup.addEventListener("click", () => {
+    slider.classList.add("moveslider");
+    formSection.classList.add("form-section-move");
+});
+ 
+login.addEventListener("click", () => {
+    slider.classList.remove("moveslider");
+    formSection.classList.remove("form-section-move");
+});</script>
+    
+</body>
+ 
+</html>

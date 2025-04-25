@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>LI-shop</title>
+    </head>
+    <body>
+       <div class="container"> 
+        <div class="header">
+            <div class="logo">
+            <img src="icons/L.svg">
+            <img src="icons/I.svg">
+            <a href="index.html">-shop</a>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html">главная</a></li>
+                <li><a href="catalog.html">каталог</a></li>
+                <li><a href="sale.html">распродажа</a></li>
+            </ul>
+            <div class="icons">
+                <a href="search.html"><img src="icons/lupa.svg"></a>
+                <a href="account.html"><img src="icons/chel.svg"></a>
+                <a href="favourites.html"><img src="icons/heart.svg"></a>
+            </div>
+        </div>
+        
+        <div class="main_search">
+           <div class="row1_search">
+                <h2>Поиск</h2>
+                   <div class="form_search">
+                      <button class="btn_search"><img src="icons/lupa.svg" alt="search"></button>
+                      <input type="search" id="mySearch" class="search-field" placeholder="Искать на LI-shop">
+                    </div>
+            </div>
+            
+            <div class="row2_search">
+               <div class="height"> 
+                   <h3>Рост</h3>
+                    <form action="#">
+                      <select >
+                        <option value="">Выбрать рост</option>
+                        <option value="110">110</option>
+                        <option value="116">116</option>
+                        <option value="122">122</option>
+                        <option value="128">128</option>
+                        <option value="134">134</option>
+                        <option value="140">140</option>
+                      </select>
+                    </form>
+                </div>
+                
+                <div class="view"> 
+                   <h3>Категория</h3>
+                    <form action="#">
+                      <select id="catigory">
+                        <option value="">Выбрать категорию</option>
+                        <option value="Dresses">Платья</option>
+                        <option value="Pajamas">Пижамы</option>
+                        <option value="Costumes">Костюмы</option>
+                        <option value="Costumes">Верхняя одежда</option>
+                        <option value="Underwear">Нижнее бельё</option>
+                        <option value="T-shirts">Майки</option>
+                        <option value="T-shirts">Шорты</option>
+                        <option value="Skirts">Юбки</option>
+                      </select>
+                    </form>
+                    </div>
+                    
+                <div class="price"> 
+                   <h3>Цена</h3>
+                    <form action="#">
+                      <select >
+                        <option value="">Сортировать цену</option>
+                        <option value="up">По возрастанию</option>
+                        <option value="down">По убыванию</option>
+                        <option value="popular">По популярности</option>
+                        <option value="feedback">По отзывам</option>
+                      </select>
+                    </form>
+                    </div>                    
+                    
+                    <div class="slider">
+                    <input type="range" min="0" max="20000" value="500" step="500"  oninput="rangeValue.innerText = this.value">
+                    <p id="rangeValue">20 000</p>
+                    </div>
+                </div>
+
+                    <div class="line"></div>  
+                    <h2>Результат</h2>
+                     
+                    <div class="cart-search">
+                      
+        <div class="card card_catalog">
+          <div class="card__top">
+            <div class="back-img-blue"></div>
+          </div>
+          
+          <h6 id="head"><a href="#" class="card__title"> 
+              Одежда для девочек  
+                </a></h6>
+        
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">0 000</div>
+            </div>
+            
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110" value="110" name="size-1"  />
+              <label for="size-110" class="none_size_search"><h6>110</h6></label>
+
+              <input type="checkbox" id="size-116" value="116" name="size-2" />
+              <label for="size-116" class="none_size_search"><h6>116</h6></label>
+
+              <input type="checkbox" id="size-122" value="122" name="size-3" />
+              <label for="size-122" class="none_size_search"><h6>122</h6></label>
+
+              <input type="checkbox" id="size-128" value="128" name="size-4" />
+              <label for="size-128" class="none_size_search"><h6>128</h6></label>
+              
+              <input type="checkbox" id="size-134" value="134" name="size-5" />
+              <label for="size-134" class="none_size_search"><h6>134</h6></label>
+              
+              <input type="checkbox" id="size-140" value="140" name="size-6" />
+              <label for="size-140" class="none_size_search"><h6>140</h6></label>
+            </div>
+            
+            <div class="adding">
+            <button class="heart">
+                <div class="heart-flip"></div>
+            </button>
+            
+            <button class="card__add btn_catalog btn_catalog_blue">В корзину</button>
+            </div>    
+          </div>    
+        </div>
+                      
+                <div class="card card_catalog">
+          <div class="card__top">
+            <div class="back-img-yellow"></div>
+          </div>
+          
+          <h6 id="head"><a href="#" class="card__title"> 
+              Одежда для девочек  
+                </a></h6>
+        
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">0 000</div>
+            </div>
+            
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110" value="110" name="size-1" />
+              <label for="size-110" class="none_size_search"><h6>110</h6></label>
+
+              <input type="checkbox" id="size-116" value="116" name="size-2" />
+              <label for="size-116" class="none_size_search"><h6>116</h6></label>
+
+              <input type="checkbox" id="size-122" value="122" name="size-3" />
+              <label for="size-122" class="none_size_search"><h6>122</h6></label>
+
+              <input type="checkbox" id="size-128" value="128" name="size-4" />
+              <label for="size-128" class="none_size_search"><h6>128</h6></label>
+              
+              <input type="checkbox" id="size-134" value="134" name="size-5" />
+              <label for="size-134" class="none_size_search"><h6>134</h6></label>
+              
+              <input type="checkbox" id="size-140" value="140" name="size-6" />
+              <label for="size-140" class="none_size_search"><h6>140</h6></label>
+            </div>
+            
+            <div class="adding">
+            <button class="heart">
+                <div class="heart-flip"></div>
+            </button>
+            
+            <button class="card__add btn_catalog btn_catalog_blue">В корзину</button>
+            </div>    
+          </div>    
+        </div>
+                      
+                <div class="card card_catalog">
+          <div class="card__top">
+            <div class="back-img-blue"></div>
+          </div>
+          
+          <h6 id="head"><a href="#" class="card__title"> 
+              Одежда для девочек  
+                </a></h6>
+        
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">0 000</div>
+            </div>
+            
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110" value="110" name="size-1" />
+              <label for="size-110" class="none_size_search"><h6>110</h6></label>
+
+              <input type="checkbox" id="size-116" value="116" name="size-2" />
+              <label for="size-116" class="none_size_search"><h6>116</h6></label>
+
+              <input type="checkbox" id="size-122" value="122" name="size-3" />
+              <label for="size-122" class="none_size_search"><h6>122</h6></label>
+
+              <input type="checkbox" id="size-128" value="128" name="size-4" />
+              <label for="size-128" class="none_size_search"><h6>128</h6></label>
+              
+              <input type="checkbox" id="size-134" value="134" name="size-5" />
+              <label for="size-134" class="none_size_search"><h6>134</h6></label>
+              
+              <input type="checkbox" id="size-140" value="140" name="size-6" />
+              <label for="size-140" class="none_size_search"><h6>140</h6></label>
+            </div>
+            
+            <div class="adding">
+            <button class="heart">
+                <div class="heart-flip"></div>
+            </button>
+            
+            <button class="card__add btn_catalog btn_catalog_blue">В корзину</button>
+            </div>    
+          </div>    
+        </div>
+                      
+                <div class="card card_catalog">
+          <div class="card__top">
+            <div class="back-img-yellow"></div>
+          </div>
+          
+          <h6 id="head"><a href="#" class="card__title"> 
+              Одежда для девочек  
+                </a></h6>
+        
+          <div class="card__bottom">
+            <div class="card__prices">
+              <div class="card__price card__price--discount"></div>
+              <div class="card__price card__price--common">0 000</div>
+            </div>
+            
+            <div class="shopnow">
+
+              <input type="checkbox" id="size-110" value="110" name="size-1" />
+              <label for="size-110" class="none_size_search"><h6>110</h6></label>
+
+              <input type="checkbox" id="size-116" value="116" name="size-2" />
+              <label for="size-116" class="none_size_search"><h6>116</h6></label>
+
+              <input type="checkbox" id="size-122" value="122" name="size-3" />
+              <label for="size-122" class="none_size_search"><h6>122</h6></label>
+
+              <input type="checkbox" id="size-128" value="128" name="size-4" />
+              <label for="size-128" class="none_size_search"><h6>128</h6></label>
+              
+              <input type="checkbox" id="size-134" value="134" name="size-5" />
+              <label for="size-134" class="none_size_search"><h6>134</h6></label>
+              
+              <input type="checkbox" id="size-140" value="140" name="size-6" />
+              <label for="size-140" class="none_size_search"><h6>140</h6></label>
+            </div>
+            
+            <div class="adding">
+            <button class="heart">
+                <div class="heart-flip"></div>
+            </button>
+            
+            <button class="card__add btn_catalog btn_catalog_blue">В корзину</button>
+            </div>    
+          </div>    
+        </div>
+                       
+                                    
+                </div>
+            
+
+       <div class="footer">
+               
+                <div class="col-1">
+                    <a href="catalog.html"><h4>Каталог</h4></a>
+                    <a href="sale.html"><h4>Распродажа</h4></a>
+                </div>
+                
+                <div class="col-2">
+                    <a href="help.html"><h4>Помощь</h4></a>
+                    <a href="revers.html"><h4>Возврат/обмен</h4></a>
+                </div>
+                    
+                <div class="col-3">
+                    <a href="personal_data.html"><h4>Персональные данные</h4></a>
+                    <a href="confidentiality.html"><h4>Конфиденциальность </h4></a>
+                </div>
+                
+                <div class="mailing">
+                    <h3>Подпишитесь на нашу рассылку </h3>
+                    <div class="mailing_form">
+                        <input type="email" id="fname" name="email" placeholder="Ваш e-mail.." >
+                        <button class="btn_form" type="submit">подписаться</button>
+                    </div>
+                    <h6>Подпишитесь на нашу рассылку и получайте информацию о скидках самым первым</h6>
+                </div>
+            </div>
+         </div>
+    </body>
+</html>
